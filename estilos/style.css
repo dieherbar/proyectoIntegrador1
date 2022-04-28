@@ -1,0 +1,132 @@
+.navigation{
+    background-color: #353A40;
+    padding: 1rem;
+    /*color: #fff;
+    height: 7em;
+    position: absolute;
+    width: 100%; */
+}
+.navigation ul li a{
+    color: #fff;
+}
+nav img{
+    /* width:160px; height:96px; */
+    /* background-color: transparent; */
+        height:5rem; 
+        background-color: transparent;
+    
+}
+.image-text{
+    background-image:url("../imgs/ba1.jpg"); 
+    /* border: rgb(227, 66, 66) 2px solid; */
+    max-width: 100%;
+    height: 107vh;
+    filter: brightness(75%);
+    margin-top: -7rem;
+    z-index: 100;
+    padding: 2rem;
+    /* background-size: cover; */
+}
+.btn-header{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    background-color: #29A744;
+    color: #d8dff2;
+}
+.btn-outline-light{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin: 1rem 0;
+}
+.navbar{
+    z-index: 1;
+}
+.image{
+    filter: brightness(50%);
+    margin-top: -7rem;
+    z-index: 100;
+}
+.texto-header{
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: rgb(227, 66, 66) 3px solid;
+}
+.card{
+    width: 26rem; 
+    margin: 0.5rem 1rem;
+    padding: 0%;
+}
+.col{
+    padding-left: 1px;
+    padding-right: 1px;
+    /* color: var(--bs-yellow); */
+}
+.btn-card-common{
+    border-radius: 5px;
+    padding: 0 0.1rem;
+    margin: 0.2rem;
+    font-weight: bold;
+}
+.btnAmarillo{
+    /* text-decoration: none;
+    font-size: 1.2rem; */
+    
+    background-color: #FFC207;
+    
+}
+.btn-azul{
+    background-color: rgb(23, 162, 185);
+    color: aliceblue;
+}
+.btnGris{
+    background-color: #6D737F;
+    color: azure;
+  }
+  .btnRojo{
+    background-color: #DC3546;
+    color: azure;
+  }
+
+.btn-outline-light{
+    margin-left: 1rem;
+}
+.mitad{
+    background-color: #353A40;
+    /* background-color: rgb(52, 53, 53); */
+    border: 1px solid black;
+    /* padding: 1.5rem; */
+    margin: 1px;
+    width: 100%;
+  }
+  span{
+    text-decoration: underline dotted;
+    font-size: 1.2rem;
+}
+  
+  .medio{
+      align-content: center;
+  }
+  form{
+      width: 50%;
+  }
+  
+  .btn-form {
+    font-size: 1.5rem;
+    padding: 0.4rem;
+    color: #fff;
+    background-color: #96C93E;
+    border-color: #96C93E;
+    border-width: 2px;
+    border-radius: 7px;
+    width: 100%;
+}
+  .footer{
+      height: 10rem;
+      background-color: #1E4C66;
+  }
+  .nav-link {
+    color: #fff;
+    font-size: 1.5rem;
+
+  }
