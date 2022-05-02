@@ -1,3 +1,6 @@
+body{
+    background-color: beige;
+}
 .navigation{
     background-color: #353A40;
     padding: 1rem;
@@ -37,7 +40,7 @@ nav img{
     z-index: 1;
 }
 .image{
-    filter: brightness(50%);
+    filter: brightness(70%);
     margin-top: -7rem;
     /* z-index: 100; */
 }
@@ -45,6 +48,7 @@ nav img{
     font-size: 1.5rem;
     font-weight: 600;
     border: rgb(227, 66, 66) 3px solid;
+    width: 40%;
 }
 /* .card{
     width: 26rem; 
