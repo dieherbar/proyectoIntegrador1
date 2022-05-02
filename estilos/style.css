@@ -44,7 +44,7 @@ nav img{
 .texto-header{
     font-size: 1.5rem;
     font-weight: 600;
-    border: rgb(227, 66, 66) 3px solid;
+    /* border: rgb(227, 66, 66) 3px solid; */
     background-color: rgba(94, 92, 92, 0.55);
 }
 .card{
