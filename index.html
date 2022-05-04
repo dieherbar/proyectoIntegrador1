@@ -89,7 +89,7 @@
   <div class="row justify-content-center mb-5">
     <!-- <div class="col col-sm-4"> -->
       <div class="card h-100 ">
-        <img src="./imgs/jobs.png" class="card-img-top img-fluid" alt="...">
+        <img src="./imgs/jobs.png" class="img-responsive card-img-top img-fluid" alt="...">
         <div class="card-body">
           <a href="#" class="btn btn-card-common btnAmarillo">JavaScript</a>
           <a href="#" class="btn btn-card-common btn-azul">React</a>
@@ -100,7 +100,7 @@
     <!-- </div> -->
     <!-- <div class="col col-md-3"> -->
       <div class="card h-100 ">
-        <img src="./imgs/gates.png" class="card-img-top img-fluid" alt="...">
+        <img src="./imgs/gates.png" class="img-responsive card-img-top img-fluid" alt="...">
         <div class="card-body">
           <a href="#" class="btn btn-card-common btnAmarillo">JavaScript</a>
           <a href="#" class="btn btn-card-common btn-azul">React</a>
@@ -111,7 +111,7 @@
     <!-- </div> -->
     <!-- <div class="col col-md-3"> -->
       <div class="card h-100 ">
-        <img src="./imgs/lovelace.png" class="card-img-top img-fluid" alt="...">
+        <img src="./imgs/lovelace.png" class="img-responsive card-img-top img-fluid" alt="...">
         <div class="card-body">
           <a href="#" class="btn btn-card-common btnGris">Negocios</a>
           <a href="#" class="btn btn-card-common btnRojo">Startups</a>
@@ -133,7 +133,7 @@
           eveniet sunt animi dolor rem alias suscipit id modi ratione saepe exercitationem architecto velit, repellat
           consequuntur illum labore dolorem! Voluptas illum excepturi deserunt nostrum maxime. Tempora aspernatur
           nesciunt et? Voluptatem eaque vitae sequi at, doloremque placeat.</p>
-          <button type="button" class="btn btn-outline-light">Conocé más</button>
+        <button type="button" class="btn btn-outline-light">Conocé más</button>
       </div>
     </div>
     <div class="text-center">
@@ -141,58 +141,76 @@
       <p class="display-6 text-uppercase fw-bold"> ORADOR</p>
       <p> Anotate como orador para dar una <span>charla ignite</span>. Cuentanos de que quieres hablar!</p>
     </div>
-
-<div class="d-flex justify-content-center mb-3">
-  <form action="https://formspree.io/f/xwkyqdnd" method="post">
-    <!-- <div class="row"> -->
-      <div class="row justify-content-center">
-        <div class="col-6 mb-2">
-          <input type="text" class="form-control" placeholder="Nombre" name="first" aria-label="First name" required>
+    
+    <div class="d-flex justify-content-center mb-3">
+      <form action="https://formspree.io/f/xwkyqdnd" method="post">
+        <!-- <div class="row"> -->
+        <div class="row justify-content-center">
+          <div class="col-6 mb-2">
+            <input type="text" class="form-control" placeholder="Nombre" name="first" aria-label="First name" required>
+          </div>
+          <div class="col-6 mb-2">
+            <input type="text" class="form-control" placeholder="Apellido" name="last" aria-label="Last name" required>
+          </div>
         </div>
-        <div class="col-6 mb-2">
-          <input type="text" class="form-control" placeholder="Apellido" name="last" aria-label="Last name" required>
+        <div class="form-floating">
+          <textarea class="form-control" style="height: 13rem;" placeholder="Sobre que quieres hablar?"
+            id="floatingTextarea2" pattern="[\w]{2,40}" title="Debe tener mas de 1 digito"></textarea>
+          <label for="floatingTextarea2">Sobre que quieres hablar?</label>
+    
+          <p class="form-text">Recuerda incluir un titulo para tu charla</p>
         </div>
-      </div>
-      <div class="form-floating">
-        <textarea class="form-control" style="height: 13rem;" placeholder="Sobre que quieres hablar?" id="floatingTextarea2" pattern="[\w]{2,40}" title="Debe tener mas de 1 digito" ></textarea>
-        <label for="floatingTextarea2">Sobre que quieres hablar?</label>
-
-        <p class="form-text">Recuerda incluir un titulo para tu charla</p>
-      </div>
-    <!-- </div> -->
-    <div>
-      <button class="btn btn-form" type="submit">Enviar</button>
+        <!-- </div> -->
+        <div>
+          <button class="btn btn-form" type="submit">Enviar</button>
+        </div>
+      </form>
     </div>
-  </form>
-</div>
+    
+    <div class="footer navbar navbar-expand-md d-flex justify-content-center align-items-center">
+      <div>
+        <ul class="nav container-fluid ">
+          <div class="text-wrap">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">Preguntas <br> frecuentes</a>
+            </li>
+          </div>
+          <div>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contactanos</a>
+            </li>
+          </div>
+          <div>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Prensa</a>
+            </li>
+          </div>
+          <div>
+            <li class="nav-item">
+              <a class="nav-link ">Conferencias</a>
+            </li>
+          </div>
+          <div>
+            <li class="nav-item">
+              <a class="nav-link ">Terminos y <br> condiciones</a>
+            </li>
+          </div>
+          <div>
+            <li class="nav-item">
+              <a class="nav-link ">Privacidad</a>
+            </li>
+          </div>
+          <div>
+            <li class="nav-item">
+              <a class="nav-link ">Estudiantes</a>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </div>
 
-  <div class="footer navbar navbar-expand-lg d-flex justify-content-center align-items-center">
-    <ul class="nav container-fluid ">
-      <li class="nav-item">
-        <a class="nav-link " aria-current="page" href="#">Preguntas frecuentes</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contactanos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Prensa</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link ">Conferencias</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link ">Terminos y condiciones</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link ">Privacidad</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link ">Estudiantes</a>
-      </li>
-    </ul>
-   
-  </div>
-  </div>
+
+    
 
 
   <!-- Bootstrap JavaScript Libraries -->

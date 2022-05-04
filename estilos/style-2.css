@@ -111,13 +111,14 @@ nav img{
     border-width: 2px;
     border-radius: 7px;
     width: 100%;
-}
+}*/
   .footer{
-      height: 10rem;
+      min-height: 7rem;
+      height: auto;
       background-color: #1E4C66;
   }
   .nav-link {
     color: #fff;
     font-size: 1.5rem;
 
-  } */
+  } 

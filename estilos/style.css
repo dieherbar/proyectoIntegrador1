@@ -110,7 +110,8 @@ nav img{
     width: 100%;
 }
   .footer{
-      height: 10rem;
+      min-height: 7rem;
+      height: auto;
       background-color: #1E4C66;
   }
   .nav-link {
