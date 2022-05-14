@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/sitio.css">
+    <!--fuentes google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Proyecto Integrador</title>
+</head>
+
+<body>
+    <div class="top">
+        <div class="mainheader">
+    
+            <div class="logo">
+                <a href="index.html"><img src="imgs/codoacodo.png" alt="Logo"></a>
+                <h3 class="logotext">Conf Bs As</h3>
+            </div>
+            <div class="navegacion">
+                <ul class="menu">
+                    <li>La Conferencia</li>
+                    <li> <a href="#oradores"> Los oradores</a></li>
+                    <li>El lugar y la fecha</li>
+                    <li><a href="#formulario">Conviertete en orador</a></li>
+                    <li>Comprar tickets</li>
+                </ul>
+            </div>
+        </div>
+        <!-- <hr>     -->
+    </div>
+    
+    <div class="header">
+        <img src="/proyectoIntegrador/imgs/ba1.jpg" alt="">
+        <div class="header_p">
+            <h3>Conf Bs As</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, cumque alias dolorem inventore
+                rerum molestias, obcaecati dicta itaque error ducimus ipsam deleniti neque iusto temporibus?</p>
+            <div class="buttons">
+                <a class="btnTransparent" href="#formulario">Quiero ser orador</a>
+                <button class="btnGreen">Comprar tickets</button>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <div class="upper">
+        <p>Conocé a los </p>
+        <h3>Oradores</h3>
+    </div>
+    <div id="oradores" class="oradores">
+        <div class="orador">
+            <img src="/proyectoIntegrador/imgs/steve.jpg" alt="steve jobs">
+            <div class="oradorText">
+                <a class="btnAmarillo" href="#"> JavaScript </a>
+                <a class="btnAzul" href="#"> React </a>
+                <h3>Steve Jobs</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, cumque alias dolorem inventore
+                    rerum molestias, obcaecati dicta itaque error ducimus ipsam deleniti neque iusto temporibus?</p>
+            </div>
+        </div>
+        <div class="orador">
+            <img src="/proyectoIntegrador/imgs/bill.jpg" alt="bill gates">
+            <div class="oradorText">
+                <a class="btnAmarillo" href="#"> JavaScript </a>
+                <a class="btnAzul" href="#"> React </a>
+                <h3>Bill Gates</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, cumque alias dolorem inventore
+                    rerum molestias, obcaecati dicta itaque error ducimus ipsam deleniti neque iusto temporibus?</p>
+            </div>
+        </div>
+        <div class="orador">
+            <img src="/proyectoIntegrador/imgs/ada.jpeg" alt="lovelace">
+            <div class="oradorText">
+                <a class="btnGris" href="#"> Negocios </a>
+                <a class="btnRojo" href="#"> Startups </a>
+                <h3>Ada Lovelace</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, cumque alias dolorem inventore
+                    rerum molestias, obcaecati dicta itaque error ducimus ipsam deleniti neque iusto temporibus?</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="twoColumns">
+        <img src="/proyectoIntegrador/imgs/honolulu.jpg" alt="playa">
+        <div class="mitad">
+            <h3>Bs As - Octubre</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt et laudantium
+                blanditiis
+                doloremque odit eveniet sunt animi dolor rem alias suscipit id modi ratione saepe exercitationem
+                architecto velit, repellat consequuntur illum labore dolorem! Voluptas illum excepturi deserunt
+                nostrum
+                maxime. Tempora aspernatur nesciunt et? Voluptatem eaque vitae sequi at, doloremque placeat.</p>
+                <button >Conocé mas</button>
+        </div>
+    </div>
+    <form class="formulario" action="https://formspree.io/f/xwkyqdnd" method="post">
+        <p id="formulario" class="upper">Conviertete en un </p>
+        <h3 class="upper">Orador</h3>
+        <p>Anotate como orador para dar una <span>charla ignite</span>. Cuentanos de que quieres hablar!
+        </p>
+        <div class="entradas">
+            <input type="text" placeholder="Nombre"><br><br>
+            <input type="text" placeholder="Apellido"><br><br>
+        </div>
+        <textarea name="mens" id="user_msg" cols="30" rows="5" placeholder="Sobre que quieres hablar?"></textarea>
+        <p style="text-align: left;">Recuerda incluir un titulo para tu charla</p>
+        <button type="submit">Enviar</button>
+    </form>
+    <div class="pie">
+        <ul>
+            <li>Preguntas frecuentes</li>
+            <li>Contactanos</li>
+            <li>Prensa</li>
+            <li>Conferencias</li>
+            <li>Terminos y condiciones</li>
+            <li>Privacidad</li>
+            <li>Estudiantes</li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

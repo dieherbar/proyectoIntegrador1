@@ -1,0 +1,363 @@
+*{
+    background-color: rgb(247, 247, 247);
+    font-size: 12px;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-size: 1.5rem;
+}
+/*.top{
+     background-image: url("/proyectoIntegrador/imgs/ba1.jpg");
+    height: 90rem;
+    filter: brightness(50%); 
+}*/
+.mainheader{
+    display: flex;
+    /* background-color: #353a40; */
+    background: linear-gradient(180deg,#181a1c,#353a406c);
+    justify-content: space-between;
+    height: 10rem;
+    padding: 0.1rem 11rem;
+    position: absolute;
+    width: 86%;
+    z-index: 10;
+}
+.topmenu h3{
+    font-size: 3rem;    
+}
+.logo{
+    background-color: transparent;
+    display: flex;
+    padding: 1rem;
+}
+.logo a{
+  background-color: transparent;
+}
+.logo img{
+    height:8rem; 
+    background-color: transparent;
+}
+.logotext{
+    /* background-color: #353A40; */
+    color: #fff;
+    align-self: center;
+    /* padding: 1rem; */
+}
+
+.navegacion{
+    background: linear-gradient(180deg,#181a1c,#353a406c);
+    /* background-color: #353A40; */
+    display: flex;
+}
+.menu{
+    /* background-color: #353A40; */
+    background-color: transparent;
+    font-size: 2.5rem;
+    list-style: none;
+    align-self: center;
+}
+.menu > li{
+    /* background-color: #353A40; */
+    background-color: transparent;
+    float: left;
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(219, 216, 216);
+  }
+  .menu > li> a{
+    /* background-color: #353A40; */
+    background: linear-gradient(180deg,#181a1c,#353a406c);
+    float: left;
+    /* margin: 1rem; */
+    font-size: 2rem;
+    color: rgb(219, 216, 216);
+    text-decoration: none;
+  }
+  .menu li:first-child{
+    color: white;
+    font-weight: bold;
+}
+  .menu li:last-child{
+      color: green;
+      font-weight: bold;
+  }
+  .header{
+      font-size: 1rem;
+      width: 100%;
+      text-align: right;
+      letter-spacing: 0.2rem;
+}
+  .header img{
+      width: 100%;
+      filter: brightness(50%);
+      height: 50%;
+  }
+  .header_p{
+      position: absolute;
+      top: 44rem; right: 14rem;
+      height: 20rem;
+      width: 50rem;
+      background-color: transparent;
+      padding: 0.5rem;
+      text-align: right;
+      color: #fff;
+  }
+  .header_p p, h3{
+      text-align: right;
+  }
+  .header_p h3{
+    text-align: right;
+}
+  .header_p p, h3, .buttons{
+    background-color: transparent;
+  }
+  .buttons{
+      margin: 0.5rem;
+  }
+  .btnTransparent{
+      background-color: transparent;
+      color: #d8dff2;
+      font-size: 2rem;
+      padding: 0.3rem;
+      border-radius: 5px;
+      border: 2px solid #d8dff2;
+      padding: 0.5rem;
+      margin: 1rem 0;
+      text-decoration: none;
+      font-weight: bold;
+  }
+  .btnGreen{
+      background-color: #29A744;
+      color: #d8dff2;
+      font-size: 2rem;
+      padding: 0.3rem;
+      border-radius: 5px;
+      border: 2px solid #29A744;
+      padding: 0.5rem;
+      margin: 1rem 0;
+  }
+  .upper p{
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .oradores{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+    h3{
+      font-size: 3rem;
+      text-align: center;
+      font-weight: bold;
+  }
+  p{
+    text-align: center;
+    /* margin: 1rem 0; */
+  }
+  span{
+      text-decoration: underline dotted;
+      font-size: 1.5rem;
+  }
+  .orador{
+      background-color: #fff;
+      height: 56rem;
+      width: 20%;
+      border: #c3c5cb 2px solid;
+      border-radius: 5px;
+      margin: 1.9rem;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+   }
+  .orador img{
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .oradorText{
+      padding: 1.5rem;
+      background-color: rgb(246, 253, 253);
+  }
+  .btnAmarillo{
+      text-decoration: none;
+      font-size: 1.2rem;
+      border-radius: 5px;
+      background-color: #FFC207;
+      padding: 0.4rem;
+      margin: 0.5rem;
+      font-weight: bold;
+  }
+  .btnAzul{
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: rgb(23, 162, 185);
+    padding: 0.3rem;
+    margin: 0.5rem;
+    font-weight: bold;
+    color: azure;
+  }
+  .btnGris{
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: #6D737F;
+    padding: 0.3rem;
+    margin: 0.5rem;
+    font-weight: bold;
+    color: azure;
+  }
+  .btnRojo{
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: #DC3546;
+    padding: 0.3rem;
+    margin: 0.5rem;
+    font-weight: bold;
+    color: azure;
+  }/*#DC3546*/
+  .orador p{
+      font-size: 1.1rem;
+    padding: 0.5rem;
+    background-color: rgb(246, 253, 253);
+    letter-spacing: 0.2rem;
+    line-height: 1.9rem;
+    text-align: left;
+    font-weight: bold;
+  }
+  .orador h3{
+      font-size: 2.5rem;
+      text-align: left;
+      padding: 0.5rem;
+      background-color: rgb(246, 253, 253);
+  }
+  .twoColumns{
+    margin: 5rem 0;
+    display: flex;
+    border: 1px solid black;
+    padding: 1px;
+  }
+  .twoColumns img{
+      margin: 1px;
+      width: 50%;
+  }
+  .mitad{
+      /* height: 150px; */
+      background-color: rgb(52, 53, 53);
+      /* width: 50%; */
+      border: 1px solid black;
+      padding: 1.5rem;
+      margin: 1px;
+    }
+  .mitad h3{
+      color: #fff;
+      text-align: left;
+      /* padding: 0 1rem ; */
+      margin: 0 0.5rem;
+  }
+  .mitad p{
+    background-color: rgb(52, 53, 53);
+    color: #fff;
+    /* padding: 1rem; */
+    margin: 0 0.5rem;
+    text-align: left;
+    line-height: 2.7rem;
+  }
+  .mitad button{
+    background-color: rgb(52, 53, 53);
+    color: #fff;
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+    margin: 1.5rem 0.5rem; 
+    border: 1px solid white;
+    font-size: 1.5rem;
+  }
+  .formulario{
+      padding: 1rem;
+      margin: 1rem auto;
+      width: 50%;
+      padding: 1rem;
+    border: 1px solid #CCC;
+    border-radius: 1rem;
+  }
+  .formulario input, textarea{
+    width: 300px;
+    box-sizing: border-box;
+  }
+  .formulario button{
+      background-color: #96C93E;
+      color: #fff;
+      width: 100%;
+      border-radius: 0.5rem;
+      line-height: 2rem;
+      padding: 1.5rem;
+      letter-spacing: 0.2rem;
+      font-size: 2rem;
+      font-weight: bold;
+      border: none;
+  }
+  .entradas{
+      display: flex;
+      justify-content: space-between;
+  }
+  .formulario textarea{
+    width: 98%;
+    border-radius: 0.5rem;
+    border: 1px solid #E0E4E8;
+  }
+  .formulario input{
+    width: 47%;
+    font-size: 1.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid #E0E4E8;
+    padding: 0.5rem;
+   margin: 0.5rem 0;
+  }
+  textarea{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+   margin: 0.5rem 0;
+  }
+  textarea::placeholder {
+    color: #6B757E;
+    font-size: 2rem;
+    padding: 1rem;
+    font-weight: bold;
+
+  }
+  .upper{
+      text-transform: uppercase;
+  }
+  .pie , .pie ul, .pie li{
+      background-color: #1E4C66;
+  }
+  .pie{
+      height: 10rem;
+    }
+    .pie ul{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 2.5rem;
+    }
+  .pie li{
+    list-style: none;
+        
+    float: left;
+      margin: 1rem;
+      font-size: 1.5rem;
+      color: #fff;
+  }
+  .container{
+      display: flex;
+      justify-content: space-around;
+  }
+  .caja{
+      width: 100px;
+      height: 100px;
+      background-color: rgb(189, 174, 174);
+  }
+  
