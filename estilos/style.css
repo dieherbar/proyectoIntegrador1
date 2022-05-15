@@ -139,7 +139,7 @@ nav img{
     padding: 0.375rem 0.75rem;
 }
 .pagar{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     background-color: #CCE5FF;
     color:#346AA4;
     border-radius: 0.5rem;
@@ -153,4 +153,8 @@ nav img{
     color: #fff;
     font-size: 1.5rem;
 
+  }
+  #card-category .card{
+    height: 17rem;
+    width: 19rem;
   }
