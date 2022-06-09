@@ -32,16 +32,16 @@
               <div class="navbar-nav">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">La Conferencia</a>
+                    <a class="nav-link active" aria-current="page" href="conferencia.html">La Conferencia</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#losOradores">Los Oradores</a>
+                    <a class="nav-link active" aria-current="page" href="index.html#losOradores">Los Oradores</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">El lugar y la fecha</a>
+                    <a class="nav-link active" aria-current="page" href="lugar.html">El lugar y la fecha</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#serOrador">Conviértete en orador</a>
+                    <a class="nav-link active" aria-current="page" href="index.html#serOrador">Conviértete en orador</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link active text-success" aria-current="page" href="#">Comprar tickets</a>
@@ -53,7 +53,7 @@
       </nav>
       <!-- <div class=""> -->
     <div class="d-flex flex-wrap justify-content-center " id="card-category">
-        <div class="card mx-1 border border-primary col-2-md text-center ">
+        <div class="card mx-1 border border-primary col-2-md text-center" onclick="updCat(1)">
             <div class=" " >
                 <div class="card-body lh-lg">
                     <h5 class="card-title fs-3 lh-lg">Estudiante</h5>
@@ -63,7 +63,7 @@
                 </div>
             </div>
         </div>
-        <div class="card mx-1 border border-success col-2-md text-center mx-1 ">
+        <div class="card mx-1 border border-success col-2-md text-center mx-1 " onclick="updCat(2)">
             <div class="" >
                 <div class="card-body lh-lg">
                     <h5 class="card-title fs-3 lh-lg">Trainee</h5>
@@ -73,7 +73,7 @@
                 </div>
             </div>
         </div>
-        <div class="card mx-1 border border-warning col-2-md text-center">
+        <div class="card mx-1 border border-warning col-2-md text-center" onclick="updCat(3)">
             <div class="" >
                 <div class="card-body lh-lg">
                     <h5 class="card-title fs-3 lh-lg">Junior</h5>
@@ -89,7 +89,7 @@
         <p>venta</p>
         <p class="text-uppercase fw-bold fs-2">valor del ticket $200</p>
       </div>
-      <div class="">
+      <div class=" ">
         <div class="d-flex justify-content-center mb-3">
             <form action="https://formspree.io/f/xwkyqdnd" method="post">
               
@@ -106,7 +106,7 @@
                     <input type="text" class="form-control" placeholder="Correo" name="correo" aria-label="correo" required>
                   </div>
               </div>
-            <div class="row">
+            <div class="row ">
                 <div class="col-6 mb-2">
                     <label for="cantidad" >Cantidad</label>
                     <input type="number" id="cantidad" class="form-control" placeholder="Cantidad" name="cantidad" aria-label="cantidad" onchange="calcTotal()" required>
