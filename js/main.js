@@ -25,3 +25,8 @@ function calcTotal() {
 function resetear() {
     document.getElementById("total").innerHTML=0;
 }
+
+function updCat(cat) {
+    document.getElementById("categoria").value=cat
+    calcTotal()
+}
