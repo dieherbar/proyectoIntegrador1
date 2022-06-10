@@ -147,6 +147,7 @@ nav img{
     background-color: #CCE5FF;
     color:#346AA4;
     border-radius: 0.5rem;
+    
 }
   .footer{
       min-height: 7rem;
@@ -187,4 +188,9 @@ nav img{
             display:none;
         }
         
+    }
+    @media (max-width:500px){
+        form{
+            width: 90%;
+        }
     }
